@@ -1,0 +1,118 @@
+{
+    "name": "Vzaar",
+    "description": "<p>vzaar is an online video hosting service, which launched in 2007. The site supports video streaming, embedding, sharing, and video storage. Originally targeted at eBay sellers, the service expanded in 2008 and now provides online video services designed for business and other commercial operations.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/523_logo.png",
+    "tags": [
+        "api united kingdom",
+        "have api",
+        "relative data",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/vzaar\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "VZaar API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/523_logo.png",
+            "humanURL": "http:\/\/vzaar.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/vzaar-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/vzaar-api-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/vzaar.com\/api\/"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/vzaar.com\/blog\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/vzaar.com\/blog\/feed\/"
+        },
+        {
+            "type": "Case Studies",
+            "url": "http:\/\/vzaar.com\/case_studies"
+        },
+        {
+            "type": "Contact Form",
+            "url": "http:\/\/vzaar.com\/contact\/new"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/vzaar"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/developer.vzaar.com\/"
+        },
+        {
+            "type": "Facebook",
+            "url": "https:\/\/www.facebook.com\/vzaar"
+        },
+        {
+            "type": "Forums",
+            "url": "https:\/\/vzaar.com\/help\/discussions"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/vzaar"
+        },
+        {
+            "type": "Glossary",
+            "url": "https:\/\/vzaar.com\/help\/kb\/glossary\/glossary"
+        },
+        {
+            "type": "Google Plus",
+            "url": "https:\/\/plus.google.com\/+vzaar_video_hosting"
+        },
+        {
+            "type": "Knowledgebase",
+            "url": "https:\/\/vzaar.com\/help\/kb"
+        },
+        {
+            "type": "Partners",
+            "url": "http:\/\/vzaar.com\/partners"
+        },
+        {
+            "type": "Pricing",
+            "url": "http:\/\/vzaar.com\/pricing"
+        },
+        {
+            "type": "Privacy",
+            "url": "http:\/\/vzaar.com\/privacy"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "http:\/\/vzaar.com\/policies"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/vzaar"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/vzaar.com\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/vzaar.com"
+        }
+    ]
+}
