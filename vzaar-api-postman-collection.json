@@ -1,0 +1,405 @@
+{
+    "id": "3da0f932a2b119816a5d5904c846dfbf",
+    "name": "VZaar API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "9e017536017ef2103665cfd5b27f3da1",
+            "name": "Get Api Accounts Account ",
+            "url": "httpsvzaar.com\/\/api\/accounts\/{account}.{format}",
+            "description": "nnThis API call returns the details and rights for each vzaar subscription account type along with its relevant metadata. This will show the details of the packages available here: http:\/\/vzaar.com\/pricingnn",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "account is the vzaar account type. This is an integer.",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "rawModeData": ""
+        },
+        {
+            "id": "65fe163f203c6b39ccd390c3eabbcf50",
+            "name": "Post Api Upload Link.xmln",
+            "url": "httpsvzaar.com\/\/api\/upload\/link.xmln",
+            "description": "nnThis API call allows a user to upload &amp; process video file from given url.nn",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "bitrate",
+                    "description": "Specifies videos bitrate",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "description",
+                    "description": "Specifies the description for the video",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "encoding_params",
+                    "description": "Includes optional parameters",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "guid",
+                    "description": "Specifies the guid to operate on",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "key",
+                    "description": "A name for the S3 object that stores the uploaded file",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "size_id",
+                    "description": "Specifies the size for the video to be encoded in",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "title",
+                    "description": "Specifies the title for the video",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "transcoding",
+                    "description": "True forces vzaar to transcode the video, false makes vzaar use the original source file",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "url",
+                    "description": "Specifies the url to video file",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "width",
+                    "description": "Specifies videos width",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "XML\/JSON",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "rawModeData": ""
+        },
+        {
+            "id": "ae5e181c688b61a50a370a3112616d99",
+            "name": "Get Api Users Username",
+            "url": "httpsvzaar.com\/\/api\/users\/{username}.{format}",
+            "description": "nnThis API call returns the users public details along with its relevant metadata.nn",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "username is the vzaar login name for the user. Note",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "rawModeData": ""
+        },
+        {
+            "id": "158e95cbfec71c4db4ed3b72343b1214",
+            "name": "Post Api Videos",
+            "url": "httpsvzaar.com\/\/api\/videos",
+            "description": "nnThis API call tells the vzaar system to process a newly uploaded video. This will encode it if necessary and then provide a vzaar video idea back.nn",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "description",
+                    "description": "Specifies the description for the video",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "guid",
+                    "description": "Specifies the guid to operate on",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "labels",
+                    "description": "Comma separated list of labels to be assigned to the video",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "profile",
+                    "description": "Specifies the size for the video to be encoded in. If not specified, this will use the vzaar default or the user default (if set)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "replace_id",
+                    "description": "Specifies the video ID of an existing video that you wish to replace with the new video.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "title",
+                    "description": "Specifies the title for the video",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "transcoding",
+                    "description": "True forces vzaar to transcode the video, false makes vzaar use the original source file",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "rawModeData": ""
+        },
+        {
+            "id": "e737ceac09f14fa43c0f297b411d406b",
+            "name": "Get Api Videos Signature",
+            "url": "httpsvzaar.com\/\/api\/videos\/signature",
+            "description": "nnThis API call allows a user to request a GUID and an AWS S3 signature. With these credentials the user will then be able upload a file into vzaar video storage area.nnThe response for this must be parsed and used in the Upload step. The upload will fail if any of these details are incorrect.nn",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "flash_request",
+                    "description": "Allows you to use a flash uploader",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "max_file_size",
+                    "description": "Specifies the maximum file size (in bytes) to limit the upload too. This gets written into the policy document",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "success_action_redirect",
+                    "description": "Specifies if to redirect to a URL after a successful post instead of issuing a 201. See the upload documentation for more details on this.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "rawModeData": ""
+        },
+        {
+            "id": "b85ecab25472292b9b99f88ab2958b64",
+            "name": "Get Api Videos",
+            "url": "httpsvzaar.com\/\/api\/videos\/{video}.{format}",
+            "description": "nnvzaar uses the oEmbed open standard for allowing 3rd parties to integrated with the vzaar. You can use the vzaar video URL to easily obtain the appropriate embed code for that video. To find out more about oEmbed view the specification here: http:\/\/oembed.com\/nn",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "borderless,",
+                    "description": "If set to true and the user has sufficient privileges, the size and embeded code returned will be be for a borderless player. Else ignored",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "embed_only,",
+                    "description": "When returning data, only include the minimum fields and embed code possible. Use this if you want the quickest and smallest return code for embedding in it",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "videos is the vzaar video number for that video.",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "rawModeData": ""
+        },
+        {
+            "id": "ff044238cb1371a460bc186c7d6b696c",
+            "name": "Get Api Username Videos",
+            "url": "httpsvzaar.com\/\/api\/{username}\/videos.xml",
+            "description": "nnThis API call returns a list of the users active videos along with its relevant metadata. 20 videos are returned by default but this is customisable.nn",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count,",
+                    "description": "Specifies the number of videos to retrieve per page. Default is 20. Maximum is 100",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page,",
+                    "description": "Specifies the page number to retrieve. Default is 1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sort,",
+                    "description": "Values can be asc (least_recent) or desc (most_recent). Defaults to desc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status,",
+                    "description": "Values can be processing, active, replaced, deleted and failed",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "title,",
+                    "description": "Return only videos with title containing given string",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username is the vzaar login name for the user. Note",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "rawModeData": ""
+        }
+    ]
+}
