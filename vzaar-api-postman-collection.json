@@ -1,5 +1,5 @@
 {
-    "id": "3da0f932a2b119816a5d5904c846dfbf",
+    "id": "64a034819fe5a05f8860caf6bb339c1e",
     "name": "VZaar API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "9e017536017ef2103665cfd5b27f3da1",
+            "id": "0b0f80060443e8d3674ffac55e1989c1",
             "name": "Get Api Accounts Account ",
             "url": "httpsvzaar.com\/\/api\/accounts\/{account}.{format}",
             "description": "nnThis API call returns the details and rights for each vzaar subscription account type along with its relevant metadata. This will show the details of the packages available here: http:\/\/vzaar.com\/pricingnn",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "collectionId": "64a034819fe5a05f8860caf6bb339c1e",
             "rawModeData": ""
         },
         {
-            "id": "65fe163f203c6b39ccd390c3eabbcf50",
+            "id": "1276baf5590064a6bb83ee25aa00b24a",
             "name": "Post Api Upload Link.xmln",
             "url": "httpsvzaar.com\/\/api\/upload\/link.xmln",
             "description": "nnThis API call allows a user to upload &amp; process video file from given url.nn",
@@ -138,11 +138,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "collectionId": "64a034819fe5a05f8860caf6bb339c1e",
             "rawModeData": ""
         },
         {
-            "id": "ae5e181c688b61a50a370a3112616d99",
+            "id": "291febd7ecc14d3b7e492f62e1019983",
             "name": "Get Api Users Username",
             "url": "httpsvzaar.com\/\/api\/users\/{username}.{format}",
             "description": "nnThis API call returns the users public details along with its relevant metadata.nn",
@@ -169,11 +169,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "collectionId": "64a034819fe5a05f8860caf6bb339c1e",
             "rawModeData": ""
         },
         {
-            "id": "158e95cbfec71c4db4ed3b72343b1214",
+            "id": "45f92940aab8fa2933b0632332279655",
             "name": "Post Api Videos",
             "url": "httpsvzaar.com\/\/api\/videos",
             "description": "nnThis API call tells the vzaar system to process a newly uploaded video. This will encode it if necessary and then provide a vzaar video idea back.nn",
@@ -242,11 +242,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "collectionId": "64a034819fe5a05f8860caf6bb339c1e",
             "rawModeData": ""
         },
         {
-            "id": "e737ceac09f14fa43c0f297b411d406b",
+            "id": "ff6cbd8dc74051fdfcb9a8dd8b754459",
             "name": "Get Api Videos Signature",
             "url": "httpsvzaar.com\/\/api\/videos\/signature",
             "description": "nnThis API call allows a user to request a GUID and an AWS S3 signature. With these credentials the user will then be able upload a file into vzaar video storage area.nnThe response for this must be parsed and used in the Upload step. The upload will fail if any of these details are incorrect.nn",
@@ -287,11 +287,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "collectionId": "64a034819fe5a05f8860caf6bb339c1e",
             "rawModeData": ""
         },
         {
-            "id": "b85ecab25472292b9b99f88ab2958b64",
+            "id": "f6c0f986cbef3f2f35d522bc0966f4d9",
             "name": "Get Api Videos",
             "url": "httpsvzaar.com\/\/api\/videos\/{video}.{format}",
             "description": "nnvzaar uses the oEmbed open standard for allowing 3rd parties to integrated with the vzaar. You can use the vzaar video URL to easily obtain the appropriate embed code for that video. To find out more about oEmbed view the specification here: http:\/\/oembed.com\/nn",
@@ -332,11 +332,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "collectionId": "64a034819fe5a05f8860caf6bb339c1e",
             "rawModeData": ""
         },
         {
-            "id": "ff044238cb1371a460bc186c7d6b696c",
+            "id": "15c3fed85629981c86e5464581899a74",
             "name": "Get Api Username Videos",
             "url": "httpsvzaar.com\/\/api\/{username}\/videos.xml",
             "description": "nnThis API call returns a list of the users active videos along with its relevant metadata. 20 videos are returned by default but this is customisable.nn",
@@ -398,7 +398,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3da0f932a2b119816a5d5904c846dfbf",
+            "collectionId": "64a034819fe5a05f8860caf6bb339c1e",
             "rawModeData": ""
         }
     ]
